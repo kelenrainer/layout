@@ -1,0 +1,244 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	height: 400px;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container img{
+	width: 300px;
+}
+
+nav {
+	display: block;
+	width: 100%;
+	background: url(img/predio.jpg); 
+	text-align: center;
+	padding: 50px 0;
+}
+
+.container h1 {
+	color: #fff;
+	font-size: 20px;
+	cursor: context-menu;
+}
+
+/*botão*/
+.container a {
+	padding: 10px 50px;
+	background-color: none;
+	border: 1px solid #f36e29;
+	border-radius: 30px;
+	color:  #f36e29;
+	font-size: .9rem;
+	letter-spacing: 2px;
+	position: relative;
+	top: 10px;
+	overflow: hidden;
+	transition: .5s;
+	display: inline-block;
+}
+  
+.container a:hover {
+	background-color: #f36c2936;
+	color: #f36c29;
+}
+
+/*texto categoria*/
+.categ h1{
+	text-align: center;
+	font-size: 30px;
+	color: #2c7a8d;
+	padding: 0;
+}
+
+.categ p{
+	text-align: center;
+	font-size: 15px;
+	color: #000000;
+	
+}
+
+
+/* banner1 */
+#banner1 {
+	text-align: center;
+	padding-top: 0 10px 10px;
+}
+  
+.banner-container {
+    flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+ 
+.proj1 {
+    background-image: url('img/nature.jpg');
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	padding: 0 10px 10px;
+}
+
+.proj1 h1{
+	font-size: 30px;
+}
+
+.proj1 p{
+	font-size: 15px;
+}
+  
+.proj2{
+	background-image: url('img/daily.jpg');
+	text-align: left;
+	color: #fff;
+	padding: 0 10px 10px;
+}
+
+.proj2 h1{
+	font-size: 30px;
+}
+
+.proj2 p{
+	font-size: 15px;
+}
+
+
+/* banner2 */
+#banner2 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.proj3 p{
+	font-size: 15px;
+}
+
+.proj3 h1{
+	font-size: 30px;
+}
+  
+.proj3 {
+	background-image: url('img/together.jpg');
+	text-align: left;
+	color: #fff;
+	padding: 0 10px 10px;
+}
+
+/* banner3 */
+#banner3 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.proj5 p{
+	font-size: 15px;
+}
+
+.proj5 h1{
+	font-size: 30px;
+}
+
+.banner-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.banner-box {
+	flex: 1 1 200px;
+	margin-left: 25px;
+	margin-right: 25px;
+	height: 300px;
+	background-size: cover;
+}  
+
+.proj4 {
+    width: 100vh;
+	height: 300px;
+    background-image: url('img/analysis.jpg');
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	padding: 0 10px 10px;
+}
+
+.proj4 h1{
+	font-size: 30px;
+}
+
+.proj4 p{
+	font-size: 15px;
+}
+  
+.proj5{
+	background-image: url('img/pictures.jpg');
+	text-align: left;
+	color: #fff;
+	padding: 0 10px 10px;
+	
+}
+
+/*texto plano de crescimento*/
+.plano h1{
+	text-align: left;
+	font-size: 30px;
+	color: #2c7a8d;
+	padding: 0 20px 0;
+}
+
+.plano p{
+	text-align: left;
+	font-size: 15px;
+	color: #000000;
+	padding: 0 20px 0;
+}
+
+/* banner4 */
+.banner4{
+	float: left;
+	width: 99%; 
+	text-align: center;
+	padding: 50px 10px;
+	margin-bottom: 10px;
+}
+   
+.banner4 .content{
+	 float:left;
+	 width: 100%;
+	 margin-top: 10px;
+}
+   
+.banner4 .content .card{
+   width: 15%;
+   float: left;
+   padding: 0 5px 0;
+}
+   
+.banner4 .content .card .box{
+	background-color: #15b9d4;
+	color:#fff;
+	padding: 40px 10px;
+}
+
+.card h1{
+	text-align: center;
+	font-size: 20px;
+}
+
+.card p{
+	font-size: 15px;
+}
